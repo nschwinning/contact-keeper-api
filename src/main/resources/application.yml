@@ -1,0 +1,11 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    username: smexnet
+    password: smexnet
+    url: jdbc:postgresql://localhost:5432/contactkeeper
+  jpa:
+    hibernate:
+      ddl-auto: update
